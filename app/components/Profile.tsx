@@ -4,7 +4,7 @@ export default function Profile(){
 
     return (
         <View>
-            <Image source={{uri:"./assets/images/perfil.jpeg"}} style={{width:200, height:300, borderRadius:10}}/>
+            <Image source={require("../../assets/images/perfil.jpeg")} style={{width:200, height:300, borderRadius:10}}/>
             <Text 
                 style={{
                     margin:3
