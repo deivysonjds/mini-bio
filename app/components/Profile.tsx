@@ -12,10 +12,13 @@ export default function Profile(){
                 Deivyson j.
             </Text>
             <Text>
-                FullStack and RPA developer
+                desenvolvedor FullStack e RPA
             </Text>
             <Text>
-                Internet system student at Unicap
+                Estudante de sistemas para internet pela Unicap
+            </Text>
+            <Text>
+                Apaixonado por tecnologia e filosofia
             </Text>
         </View>
     )
