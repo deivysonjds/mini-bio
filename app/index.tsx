@@ -1,4 +1,4 @@
-import { View } from "react-native";
+import { Text, View } from "react-native";
 import Profile from "./components/Profile";
 
 export default function Index() {
@@ -11,9 +11,9 @@ export default function Index() {
         alignItems: "center"
       }}
     >
-      <h1 style={{width:550, textAlign:"center"}}>
+      <Text style={{width:"80%", textAlign:"center", marginBottom:30, fontWeight:"bold"}}>
         App criado para a disciplina Programação para Dispositivos Móveis
-      </h1>
+      </Text>
       <Profile/>
     </View>
   );
